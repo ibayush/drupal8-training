@@ -7,7 +7,7 @@ namespace  Drupal\hello_world;
 class HelloServices2 {
  protected $say_something;
  public function __construct() {
-   $this->say_something = 'Hello World jinah!';
+   $this->say_something = 'Hello World jinah';
  }
  public function  sayHello($name = ''){
    if (empty($name)) {
